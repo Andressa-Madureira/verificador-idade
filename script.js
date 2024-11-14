@@ -13,7 +13,6 @@ function verificar(){
 
        var img = document.createElement('img')
        img.setAttribute('id', 'foto')
-        img.style.textAlign = 'center'
        
        if(fsex[0].checked){
             genero = 'homem'
